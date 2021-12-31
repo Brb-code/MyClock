@@ -1,0 +1,15 @@
+<div fxLayout="row" fxLayoutAlign="center strech" class="alto100">
+  <div fxFlex class="alto100">
+    <div class="txtcentro medio">
+      <span id="fontHora" >{{fechahora | date:'HH:mm:ss'}}</span>
+      <br><br>
+      <span id="fontFecha">{{fechahora | date:'EEEE, dd/MM/yyyy'}}</span>
+    </div>
+  </div>
+  <div fxFlex style="display:table; height:100%;">
+    <div class="ancho90 centro" style="display: table-cell; vertical-align:middle;" *ngIf='foto'>
+      <img class="foto" *ngIf="foto.width>=foto.height" [src]="foto.src" alt="imagenes" style="width: 90%; max-width: 90%;">
+      <img class="foto" *ngIf="foto.width<foto.height" [src]="foto.src" alt="imagenes" style="height: 80%; max-height: 90%;">
+    </div>
+  </div>
+</div>

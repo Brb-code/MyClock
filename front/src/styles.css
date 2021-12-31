@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: white;
+}
+.alto100 {
+  height: 100%;
+}
+.centro {
+  margin-left: auto;
+  margin-right: auto;
+}
+.txtcentro {
+  text-align: center;
+}
+.medio {
+  margin-top: 50%;
+}
+.ancho90 {
+  width: 90%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://acegif.com/wp-content/uploads/starfall-gif.gif");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foto {
+  -webkit-box-shadow: 12px 29px 81px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 12px 29px 81px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 12px 29px 81px 0px rgba(255, 255, 255, 0.75);
+}
